@@ -7,7 +7,7 @@
  * @returns {number} The sum of all numbers from 1 to the input number.
  */
 
-const addUp = (number) => {
+export const addUp = (number) => {
     let sum = 0;
     for (let i = 1; i <= number; i++) {
         sum += i;
